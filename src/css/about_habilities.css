@@ -1,0 +1,77 @@
+#habilities h6{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#habilities p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 7px;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+hr{
+    margin: 3px;
+}
+
+#html{
+    width: 100%;
+    background-color: #4cc3d9;
+    border: 4px solid #2a6e7a;
+}
+
+#css{
+    width: 80%;
+    background-color: #4cc3d9;
+    border: 4px solid #2a6e7a;
+}
+
+#js{
+    width: 35%;
+    background-color: #4cc3d9;
+    border: 4px solid #2a6e7a;
+}
+
+#react{
+    width: 40%;
+    background-color: #4cc3d9;
+    border: 4px solid #2a6e7a;
+}
+
+#sql{
+    width: 50%;
+    background-color: #93648d;
+    border: 4px solid #613f5e;
+}
+
+#c{
+    width: 60%;
+    background-color: #7bc8a4;
+    border: 4px solid #426e5a;
+}
+
+#cpp{
+    width: 75%;
+    background-color: #7bc8a4;
+    border: 4px solid #426e5a;
+}
+
+#py{
+    width: 70%;
+    background-color: #7bc8a4;
+    border: 4px solid #426e5a;
+}
+
+#java{
+    width: 55%;
+    background-color: #7bc8a4;
+    border: 4px solid #426e5a;
+}
+
+#sol{
+    color: #d8d8d8;
+    width: 85%;
+    background-color: #404040;
+    border: 4px solid #131313;
+}
