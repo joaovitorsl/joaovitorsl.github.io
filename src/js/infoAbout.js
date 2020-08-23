@@ -53,24 +53,24 @@ function Hobbies() {
     return (
         <div id="page-hobbies">
             <h6>HOBBIES</h6>
-            <div className="hobbies">
-                <div className="hobbie_item">
+            <div bp="grid" className="hobbies">
+                <div bp="6@sm 4@md" className="hobbie_item">
                     <div id="img"><img src={Musica} /></div>
                     <div><p>Música</p></div>
                 </div>
-                <div className="hobbie_item">
+                <div bp="6@sm 4@md" className="hobbie_item">
                     <div id="img"><img src={instrumentos} /> </div>
                     <div><p>Cantar e tocar</p></div>
                 </div>
-                <div className="hobbie_item">
+                <div bp="4@md" className="hobbie_item">
                     <div id="img"><img src={Filmes} /></div>
                     <div><p>Filmes</p></div>
                 </div>
-                <div className="hobbie_item">
+                <div bp="6@sm" className="hobbie_item">
                     <div id="img"><img src={DS} /></div>
                     <div><p>Meu 2DS &lt;3</p></div>
                 </div>
-                <div className="hobbie_item">
+                <div bp="6@sm" className="hobbie_item">
                     <div id="img"><img src={Games} /></div>
                     <div><p>Games</p></div>
                 </div>

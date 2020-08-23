@@ -57,16 +57,16 @@ function Previous() {
 
 function Header() {
     return (
-        <div className="header">
-            <h3 className="programmerCard">PROGRAMMER CARD</h3>
-            <h3>JOÃO VITOR</h3>
+        <div bp="grid" className="header">
+            <h3 bp="10 6@lg" className="programmerCard">PROGRAMMER CARD</h3>
+            <h3 bp="8 6@lg"> JOÃO VITOR</h3>
         </div>
     );
 }
 
 function Badge({ src, number, text }) {
     return (
-        <div class="tooltip">
+        <div class="tooltip" bp="3 1@md">
             <div className="badge" style={{ position: "relative" }}>
                 <span style={{ position: "absolute", bottom: "5px", right: "5px", fontSize: "0.8rem" }}>{number}</span>
                 <img src={src} />
@@ -80,7 +80,7 @@ function Badges() {
     return (
         <div className="footer">
             <h5>BADGES</h5>
-            <div className="badges">
+            <div className="badges" bp="grid">
                 <Badge number="1" src={OBR} text={"OLIMPÍADA BRASILEIRA DE ROBÓTICA | Bronze 2015"} />
                 <Badge number="2" src={TJR} text={"TORNEIO JUVENIL DE ROBÓTICA | Ouro PB (2015)"} />
                 <Badge number="3" src={OPI} text={"OLIMPÍADA PARAIBANA DE INFORMÁTICA | Prata (2019) / Honra ao Mérito (2015, 2019)"} />
@@ -103,21 +103,23 @@ const About = () => {
                     <Header />
                 </div>
 
-                <div className="content">
-                    <div className="info">
-                        <Previous />
-                        <div>
-                            <HashRouter basename={process.env.PUBLIC_URL}>
-                                <Switch>
-                                    <Route path="/about/:id">
-                                        <Info />
-                                    </Route>
-                                </Switch>
-                            </HashRouter>
+                <div bp="grid" className="content">
+                    <div bp="12 8@lg" className="info">
+                        <div bp="grid">
+                            <Previous />
+                            <div bp="10">
+                                <HashRouter basename={process.env.PUBLIC_URL}>
+                                    <Switch>
+                                        <Route path="/about/:id">
+                                            <Info />
+                                        </Route>
+                                    </Switch>
+                                </HashRouter>
+                            </div>
+                            <Next />
                         </div>
-                        <Next />
                     </div>
-                    <div className="photo">
+                    <div bp="12 4@lg" className="photo">
                         <img src={joao}></img>
                     </div>
                 </div>

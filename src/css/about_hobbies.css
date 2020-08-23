@@ -5,20 +5,7 @@
 
 #referencia{
     text-align: center;
-}
-
-.hobbies{
-    display: grid;
-    grid-template-areas:
-    "musica1 musica2 filmes";
-}
-
-.hobbies div{
-    display: grid;
-    grid-template-areas:
-    "photo"
-    "nome";
-    grid-auto-rows: 1fr max-content;
+    font-size: 10px;
 }
 
 .hobbie_item div{
@@ -32,16 +19,9 @@
 
 .hobbies p{
     font-size: 20px;
+    text-align: center;
 }
 
 .hobbies img{
     height: 100px;
-}
-
-#img{
-    height: auto;
-}
-
-#referencia{
-    font-size: 10px;
 }

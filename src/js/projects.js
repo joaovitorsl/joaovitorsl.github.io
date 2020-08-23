@@ -10,7 +10,7 @@ function Title() {
 
 function Project({ titulo, descricao, link, logo }) {
     return (
-        <div id="project">
+        <div bp="3" id="project">
             <h3>{titulo}</h3>
             <p>{descricao}</p>
             <div className="project-links">
@@ -27,7 +27,7 @@ const Projects = () => {
         <>
             <div id="project-page">
                 <Title />
-                <div id="projects">
+                <div id="projects" bp="grid">
                     <Project titulo="BLOCKFY" descricao="Um contador de stream React que utiliza de Smart Contracts escritos na linguagem Solidity e executados em uma rede de testes Ethereum" link="https://github.com/latin-ifpb/blockfy" logo={github} />
                     <Project titulo="Livro de Receitas" descricao="Um site React com receitas da internet que deram certo para ficar mais fácil de achar depois" link="https://github.com/joaovitorsl/livro-de-receitas" logo={github}/>
                     <Project titulo="O que o IF faz por mim?" descricao="Um projeto que surgiu em 2018 em meio a ataques as Universidades e Institutos Federais visando divulgar os feitos para a comunidade" link="https://github.com/oqueoiffazpormim/oqueoiffazpormim.github.io" logo={github}/>

@@ -1,16 +1,7 @@
-#teste{
-    padding: 50px;
-}
-
 .about-page{
     border: #646473 solid 7px;
     border-radius: 7px;
     text-align: left;
-    display: grid;
-    grid-template-areas:
-        "header"
-        "content"
-        "footer";
     background: repeating-linear-gradient(
         180deg,
         #f5f5f5,
@@ -25,35 +16,15 @@
     background-color: rgb(104, 184, 248);
     border: #3c6c92 4px solid;
     border-radius: 5px;
-    width: fit-content;
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 4px;
-}
-
-.titulo{
-    grid-area: header;
-}
-
-.content{
-    grid-area: content;
-    display: grid;
-    grid-template-areas: "info photo";
-    grid-auto-columns: 1fr max-content;
-}
-
-.olimpiadas{
-    grid-area: footer;
 }
 
 .header{
     margin-top: 25px;
     margin-bottom: 15px;
-    display: grid;
-    grid-template-areas: "title nome";
     font-size: 22px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: repeating-linear-gradient(
         180deg,
         #95eb84,
@@ -61,6 +32,11 @@
         #7fc067 10px,
         #75b75e 20px
     );
+}
+
+.header h3{
+    margin: 0;
+    width: fit-content;
 }
 
 .footer{
@@ -85,21 +61,16 @@
 }
 
 .photo{
-    grid-area: photo;
     align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 400px;
+    width: 100%;
     margin-right: 50px;
 }
 
 .info{
-    grid-area: info;
-    display: grid;
-    grid-template-areas: "previous info next";
-    grid-auto-columns: max-content 1fr max-content;
     width: auto;
 }
 
@@ -115,10 +86,6 @@
 }
 
 .badges{
-    grid-area: badges;
-    display: grid;
-    grid-template-areas:
-    "1 2 3 4 5 6 7 8";
     margin-left: 50px;
 }
 
@@ -128,7 +95,7 @@
 }
 
 .badge img{
-    width: 60px;
+    width: 100%;
 }
 
 .badge{
@@ -140,7 +107,6 @@
  .tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
   }
   
   /* Tooltip text */
@@ -182,4 +148,22 @@
   .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+  }
+
+  @media(max-width: 479px){
+    .badges{
+        margin-left: 0;
+    }
+  }
+
+  @media(max-width: 959px){
+    #teste{
+        padding: 0;
+    }
+    .about-page{
+        border: none;
+        border-radius: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
   }
