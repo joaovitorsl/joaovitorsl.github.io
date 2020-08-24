@@ -1,24 +1,68 @@
 .job_section h3{
-    font-size: 1.7rem;
+    margin: 0; padding: 0;
+    font-size: 19px;
     margin-bottom: 15px;
     letter-spacing: 2px;
 }
 
+.job_section{
+    margin: 0; padding: 0;
+    margin-top: 25px;
+}
+
 .job_item{
-    margin-left: 15px;
+    margin: 0; padding: 0;
+    margin-left: 22px;
 }
 
 .job_item span{
-    font-size: 1.3rem;
-    color: green;
+    margin: 0; padding: 0;
+    font-size: 17px;
+    color: rgb(200, 69, 39);
+}
+
+.job_item ul{
+    margin: 0; padding: 0;
+    font-size: 16px;
 }
 
 .job_item li{
-    font-size: 1.2rem;
+    margin: 0; padding: 0;
+    margin-top: 25px;
     padding-left: 30px;
+    list-style: none;
 }
 
 .job_item small{
-    font-size: 0.9rem;
-    color: rgb(87, 87, 87)
+    margin: 0; padding: 0;
+    font-size: 12px;
+    color: #33464d;
+}
+
+li:before {
+    
+    content: "-";
+    margin-right: 8px;
+}
+
+@media(max-width: 480px){
+    .job_section h3{
+        text-align: center;
+    }
+    
+    .job_item{
+        padding: 0;
+    }
+    
+    .job_item span{
+        padding: 0;
+    }
+    
+    .job_item li{
+        padding: 0;
+    }
+    
+    .job_item small{
+        padding: 0;
+    }
 }

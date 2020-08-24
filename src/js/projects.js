@@ -4,13 +4,13 @@ import github from '../images/github.png';
 
 function Title() {
     return (
-        <h3>MY PROJECTS</h3>
+        <h3 id="titulo">MY PROJECTS</h3>
     );
 }
 
 function Project({ titulo, descricao, link, logo }) {
     return (
-        <div bp="3" id="project">
+        <div bp="12 6@md 4@lg 3@xl" id="project">
             <h3>{titulo}</h3>
             <p>{descricao}</p>
             <div className="project-links">

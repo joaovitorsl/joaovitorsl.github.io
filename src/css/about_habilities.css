@@ -1,14 +1,15 @@
 #habilities h6{
     margin-top: 10px;
     margin-bottom: 25px;
+    font-size: 19px;
 }
 
 #habilities p{
+    font-size: 17px;
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 7px;
     border-radius: 2px;
-    font-size: 20px;
 }
 
 hr{

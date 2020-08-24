@@ -42,7 +42,7 @@ function Job({ year, org, period, descricao }) {
 function Jobs() {
     return (
         <div className="about_job">
-            <Job year="2019" org="LaTIn IFPB" period="(Abr 2019 - Dez 2019)" descricao="Desenvolvedor de Smart Contracts (Solidity)" />
+            <Job id="first" year="2019" org="LaTIn IFPB" period="(Abr 2019 - Dez 2019)" descricao="Desenvolvedor de Smart Contracts (Solidity)" />
             <Job year="2018" org="IFPB Campus Campina Grande" period="(Jun 2018 - Dez 2018)" descricao="Monitor de Algoritmos (Python)" />
             <Job year="2016 / 2015" org="Colégio Alfredo Dantas" period="(2015 - Dez 2016)" descricao="Equipe de Robótica (EV3)" />
         </div>

@@ -58,8 +58,8 @@ function Previous() {
 function Header() {
     return (
         <div bp="grid" className="header">
-            <h3 bp="10 6@lg" className="programmerCard">PROGRAMMER CARD</h3>
-            <h3 bp="8 6@lg"> JOÃO VITOR</h3>
+            <h3 bp="12 6@sm" className="programmerCard">PROGRAMMER CARD</h3>
+            <h3 bp="12 6@sm" className="nome"> JOÃO VITOR</h3>
         </div>
     );
 }
@@ -105,21 +105,19 @@ const About = () => {
 
                 <div bp="grid" className="content">
                     <div bp="12 8@lg" className="info">
-                        <div bp="grid">
-                            <Previous />
-                            <div bp="10">
-                                <HashRouter basename={process.env.PUBLIC_URL}>
-                                    <Switch>
-                                        <Route path="/about/:id">
-                                            <Info />
-                                        </Route>
-                                    </Switch>
-                                </HashRouter>
-                            </div>
-                            <Next />
+                        <div id="prev" className="controlador"> <Previous /> </div>
+                        <div id="t">
+                            <HashRouter basename={process.env.PUBLIC_URL}>
+                                <Switch>
+                                    <Route path="/about/:id">
+                                        <Info />
+                                    </Route>
+                                </Switch>
+                            </HashRouter>
                         </div>
+                        <div id="next" className="controlador"> <Next /> </div>
                     </div>
-                    <div bp="12 4@lg" className="photo">
+                    <div bp="12 8@lg" className="photo">
                         <img src={joao}></img>
                     </div>
                 </div>

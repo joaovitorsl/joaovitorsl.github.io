@@ -1,25 +1,25 @@
 #teste{
-  padding: 50px;
+  line-height: 1;
 }
 
 body{
     position: relative;
-    font-size: 2rem;
     background: #242424;
-    height: 100vh - 50px;
-    width: 100vw - 50px;
     color: white;
     text-align: center;
 }
 
 #main-content{
-    background: url(logo.svg);
+    height: 100vh;
+    width: 100vw;
+    background: url(logo.png);
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .row-wrap {
-	flex-flow: row wrap;
+	  flex-flow: row wrap;
 }
 
 .item{
@@ -32,6 +32,7 @@ body{
   display: grid;
   grid-gap: 1rem;
   height: 25vh;
+  font-size: 35px
 }
 
 #aSave, #aStart{
@@ -56,8 +57,9 @@ body{
 
 #header{
     height: 50vh;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 40px;
 }
 
 #header-main{
@@ -70,7 +72,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
+    font-size: 35px;
 }
 
 #footer{
@@ -78,5 +81,62 @@ body{
     height: 20vh;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 25px;
+    
+}
+
+@media(max-width: 1440px){
+  #header{
+    font-size: 30px;
+  }
+
+  #footer{
+    font-size: 20px;
+  }
+
+  .saves, #start{
+    font-size: 25px;
+  }
+}
+
+@media(max-width: 960px){
+  #header{
+    font-size: 25px;
+  }
+
+  #footer{
+    font-size: 15px;
+  }
+
+  .saves, #start{
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 720px){
+  #header{
+    font-size: 20px;
+  }
+
+  #footer{
+    font-size: 10px;
+  }
+
+  .saves, #start{
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 480px){
+  #header{
+    font-size: 15px;
+  }
+
+  #footer{
+    font-size: 8px;
+  }
+
+  .saves, #start{
+    font-size: 10px;
+  }
 }

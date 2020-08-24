@@ -1,4 +1,5 @@
 #page-hobbies h6{
+    font-size: 19px;
     margin-top: 10px;
     margin-bottom: 25px;
 }
@@ -18,7 +19,7 @@
 }
 
 .hobbies p{
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
 }
 

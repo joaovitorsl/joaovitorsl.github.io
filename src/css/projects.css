@@ -1,7 +1,6 @@
 #project-page{
     text-align: left;
-    max-width: 100vw;
-    max-height: 100vh;
+    padding: 50px;
 }
 
 #project img{
@@ -26,4 +25,9 @@
     margin-top: 15px;
     margin-bottom: 0;
     font-weight: 300;
+    font-size: 17px;
+}
+
+#titulo{
+    font-size: 22px;
 }
