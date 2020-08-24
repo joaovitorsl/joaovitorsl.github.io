@@ -42,9 +42,9 @@ function Job({ year, org, period, descricao }) {
 function Jobs() {
     return (
         <div className="about_job">
-            <Job id="first" year="2019" org="LaTIn IFPB" period="(Abr 2019 - Dez 2019)" descricao="Desenvolvedor de Smart Contracts (Solidity)" />
-            <Job year="2018" org="IFPB Campus Campina Grande" period="(Jun 2018 - Dez 2018)" descricao="Monitor de Algoritmos (Python)" />
-            <Job year="2016 / 2015" org="Colégio Alfredo Dantas" period="(2015 - Dez 2016)" descricao="Equipe de Robótica (EV3)" />
+            <Job year="2019" org="LaTIn IFPB" period="(Apr 2019 - Dec 2019)" descricao="Desenvolvedor de Smart Contracts (Solidity)" />
+            <Job year="2018" org="IFPB Campus Campina Grande" period="(Jun 2018 - Dec 2018)" descricao="Monitor de Algoritmos (Python)" />
+            <Job year="2016 / 2015" org="Colégio Alfredo Dantas" period="(2015 - Dec 2016)" descricao="Equipe de Robótica (EV3)" />
         </div>
     );
 }
@@ -56,26 +56,26 @@ function Hobbies() {
             <div bp="grid" className="hobbies">
                 <div bp="6@sm 4@md" className="hobbie_item">
                     <div id="img"><img src={Musica} /></div>
-                    <div><p>Música</p></div>
+                    <div><p>Music</p></div>
                 </div>
                 <div bp="6@sm 4@md" className="hobbie_item">
                     <div id="img"><img src={instrumentos} /> </div>
-                    <div><p>Cantar e tocar</p></div>
+                    <div><p>Sing and play</p></div>
                 </div>
                 <div bp="4@md" className="hobbie_item">
                     <div id="img"><img src={Filmes} /></div>
-                    <div><p>Filmes</p></div>
+                    <div><p>Films</p></div>
                 </div>
                 <div bp="6@sm" className="hobbie_item">
                     <div id="img"><img src={DS} /></div>
-                    <div><p>Meu 2DS &lt;3</p></div>
+                    <div><p>My 2DS &lt;3</p></div>
                 </div>
                 <div bp="6@sm" className="hobbie_item">
                     <div id="img"><img src={Games} /></div>
                     <div><p>Games</p></div>
                 </div>
             </div>
-            <p id="referencia">Ícones feitos por <a href="http://www.freepik.com/" title="Freepik">Freepik</a></p>
+            <p id="referencia">Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
         </div>
     );
 }
@@ -83,7 +83,7 @@ function Hobbies() {
 function Habilidades() {
     return (
         <div id="habilities">
-            <h6>HABILITIES</h6>
+            <h6>ABILITIES</h6>
             <p id="html">HTML 5</p>
             <p id="css">CSS</p>
             <p id="js">JavaScript</p>

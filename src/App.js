@@ -3,6 +3,7 @@ import './App.css';
 import './main.css';
 import About from  './js/about';
 import Projects from './js/projects';
+import Contact from './js/contact';
 import { HashRouter } from 'react-router-dom';
 
 import {
@@ -41,6 +42,9 @@ export default function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </div>

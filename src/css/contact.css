@@ -1,0 +1,26 @@
+.contact_item img{
+    height: 75px;
+}
+
+#contact-page{
+    margin-top: 34vh;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacts{
+    display: grid;
+    grid-template-areas: "a b c";
+    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#contacts div{
+    width: fit-content;
+}
