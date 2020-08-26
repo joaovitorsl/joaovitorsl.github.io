@@ -1,21 +1,39 @@
-#teste{
-  line-height: 1;
-}
-
 body{
     position: relative;
     background: #242424;
     color: white;
     text-align: center;
+    background: repeating-linear-gradient(
+        180deg,
+        #1b1b1b,
+        #141414 5px,
+        #0a0a0a 5px,
+        #050505 10px
+    );
 }
 
 #main-content{
     height: 100vh;
     width: 100vw;
-    background: url(logo.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+}
+
+#main-content::before, #main-content::after {
+  content:"";
+  position: fixed;
+  width: 100%;
+  height: 30vh;
+  top: 0;
+  left: 0;
+  background-image: repeating-linear-gradient(to right, #0a0a0a 0, #0a0a0a 10px, #2e2e2e 5px, #2e2e2e 20px);
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+#main-content::after {
+  background-image: repeating-linear-gradient(to bottom, #0a0a0a 0, #0a0a0a 5px, #2e2e2e 5px, #2e2e2e 10px);
+  mix-blend-mode: difference;
+}
+
+#header{
+  position: relative;
 }
 
 .row-wrap {
@@ -32,7 +50,7 @@ body{
   display: grid;
   grid-gap: 1rem;
   height: 25vh;
-  font-size: 35px
+  font-size: 33px
 }
 
 #aSave, #aStart{
@@ -59,7 +77,7 @@ body{
     height: 50vh;
     padding-left: 50px;
     padding-right: 50px;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 #header-main{
@@ -73,7 +91,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 25vh;
-    font-size: 35px;
+    font-size: 33px;
 }
 
 #footer{
@@ -81,55 +99,55 @@ body{
     height: 20vh;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 28px;
     
 }
 
 @media(max-width: 1440px){
   #header{
-    font-size: 30px;
+    font-size: 33px;
   }
 
   #footer{
-    font-size: 20px;
+    font-size: 23px;
   }
 
   .saves, #start{
-    font-size: 25px;
+    font-size: 28px;
   }
 }
 
 @media(max-width: 960px){
   #header{
-    font-size: 25px;
+    font-size: 28px;
   }
 
   #footer{
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .saves, #start{
-    font-size: 20px;
+    font-size: 23px;
   }
 }
 
 @media(max-width: 720px){
   #header{
-    font-size: 20px;
+    font-size: 23px;
   }
 
   #footer{
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .saves, #start{
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 
 @media(max-width: 480px){
   #header{
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #footer{
@@ -137,6 +155,6 @@ body{
   }
 
   .saves, #start{
-    font-size: 10px;
+    font-size: 13px;
   }
 }

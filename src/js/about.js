@@ -81,11 +81,11 @@ function Badges() {
         <div className="footer">
             <h5>BADGES</h5>
             <div className="badges" bp="grid">
-                <Badge number="1" src={OBR} text={"OLIMPÍADA BRASILEIRA DE ROBÓTICA | Bronze 2015"} />
-                <Badge number="2" src={TJR} text={"TORNEIO JUVENIL DE ROBÓTICA | Ouro PB (2015)"} />
-                <Badge number="3" src={OPI} text={"OLIMPÍADA PARAIBANA DE INFORMÁTICA | Prata (2019) / Honra ao Mérito (2015, 2019)"} />
-                <Badge number="4" src={ORI} text={"OLIMPÍADA REGIONAL DE INFORMÁTICA | Bronze (2019)"} />
-                <Badge number="5" src={OBG} text={"OLIMPÍADA GEOBRASIL | Ouro PB (2019)"} />
+                <Badge number="1" src={OBR} text={"BRAZILIAN ROBOTICS OLYMPIAD | Bronze medal (2015)"} />
+                <Badge number="2" src={TJR} text={"YOUNG ROBOTICS TOURNAMENT | Gold medal PB (2015)"} />
+                <Badge number="3" src={OPI} text={"PARAIBA COMPUTER OLYMPICS | Silver medal (2019) / Honor to merit (2015, 2019)"} />
+                <Badge number="4" src={ORI} text={"REGIONAL INFORMATICS OLYMPICS | Bronze medal (2019)"} />
+                <Badge number="5" src={OBG} text={"GEOBRASIL OLYMPICS | Gold medal PB (2019)"} />
                 <Badge number="6" />
                 <Badge number="7" />
                 <Badge number="8" />

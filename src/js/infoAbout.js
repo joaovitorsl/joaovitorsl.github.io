@@ -42,9 +42,9 @@ function Job({ year, org, period, descricao }) {
 function Jobs() {
     return (
         <div className="about_job">
-            <Job year="2019" org="LaTIn IFPB" period="(Apr 2019 - Dec 2019)" descricao="Desenvolvedor de Smart Contracts (Solidity)" />
-            <Job year="2018" org="IFPB Campus Campina Grande" period="(Jun 2018 - Dec 2018)" descricao="Monitor de Algoritmos (Python)" />
-            <Job year="2016 / 2015" org="Colégio Alfredo Dantas" period="(2015 - Dec 2016)" descricao="Equipe de Robótica (EV3)" />
+            <Job year="2019" org="LaTIn IFPB" period="(Apr 2019 - Dec 2019)" descricao="Smart contracts developer (Solidity)" />
+            <Job year="2018" org="IFPB Campus Campina Grande" period="(Jun 2018 - Dec 2018)" descricao="Algorithms monitor (Python)" />
+            <Job year="2016 / 2015" org="Colégio Alfredo Dantas" period="(2015 - Dec 2016)" descricao="Robotics team (EV3)" />
         </div>
     );
 }
@@ -83,7 +83,7 @@ function Hobbies() {
 function Habilidades() {
     return (
         <div id="habilities">
-            <h6>ABILITIES</h6>
+            <h6>SKILLS</h6>
             <p id="html">HTML 5</p>
             <p id="css">CSS</p>
             <p id="js">JavaScript</p>
@@ -116,7 +116,7 @@ function Software() {
 function Informacoes() {
     return (
         <div>
-            <p className="text">Olá me chamo João, campinense de 18 anos e estou envolvido com desenvolvimento desde meus 12 anos, quando um professor me chamou pra participar de uma seleção para a equipe de robótica do colégio e começou a dar aulas de C. O ápice da empolgação foi quando consegui fazer minha primeira questão: Flíper (OBI 2014), a partir de então me interessei bastante pela área, a empolgação foi tanta que fui fazer o Técnico em Informática no IFPB para saber se eu realmente queria isso pra minha vida, e olha só, hoje sou graduando em Ciência da Computação na UFCG. As áreas que mais me fascinam atualmente são Web e Data Science.</p>
+            <p className="text">Hello, my name is João, 18 years old from Campina Grande, Brazil. I have been involved in development since I was 12 years old when a teacher asked me to participate in a selection for the school's robotics team and I started to learn C. The height of enthusiasm was when I managed to answer my first question: <a href="https://olimpiada.ic.unicamp.br/pratique/pj/2014/f1/fliper/">Flíper (OBI 2014)</a>, from then on I became very interested in the area, the excitement was so great that I decided to do Computer Technician at the IFPB integrated with the high school to find out if I really wanted this for my life, and look, today I am majoring in Computer Science at UFCG. The areas that most fascinate me today are Web and Data Science.</p>
         </div>
     );
 }

@@ -6,7 +6,7 @@ import gmail from '../images/gmail.png';
 
 function Title() {
     return (
-        <h3 id="titulo">CONTACT ME</h3>
+        <h3 id="titulo">CONTACT</h3>
     );
 }
 

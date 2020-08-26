@@ -28,10 +28,10 @@ const Projects = () => {
             <div id="project-page">
                 <Title />
                 <div id="projects" bp="grid">
-                    <Project titulo="BLOCKFY" descricao="Um contador de stream React que utiliza de Smart Contracts escritos na linguagem Solidity e executados em uma rede de testes Ethereum" link="https://github.com/latin-ifpb/blockfy" logo={github} />
-                    <Project titulo="Livro de Receitas" descricao="Um site React com receitas da internet que deram certo para ficar mais fácil de achar depois" link="https://github.com/joaovitorsl/livro-de-receitas" logo={github}/>
-                    <Project titulo="O que o IF faz por mim?" descricao="Um projeto que surgiu em 2018 em meio a ataques as Universidades e Institutos Federais visando divulgar os feitos para a comunidade" link="https://github.com/oqueoiffazpormim/oqueoiffazpormim.github.io" logo={github}/>
-                    <Project titulo="Sistema de controle acadêmico" descricao="Uma protótipo em Java de um Sistema de Controle Acadêmico integrado com PostgreSQL" link="https://github.com/joaovitorsl/Sistema-de-Controle-Academico" logo={github}/>
+                    <Project titulo="BLOCKFY" descricao="A stream counter in React that uses a smart contract written in the Solidity language and runs on an Ethereum test network" link="https://github.com/latin-ifpb/blockfy" logo={github} />
+                    <Project titulo="Livro de Receitas" descricao="A React site with internet recipes that worked to make it easier to find later" link="https://github.com/joaovitorsl/livro-de-receitas" logo={github}/>
+                    <Project titulo="O que o IF faz por mim?" descricao="A project that emerged in 2018 amid attacks on Universities and Federal Institutes to publicize the achievements to the community" link="https://github.com/oqueoiffazpormim/oqueoiffazpormim.github.io" logo={github}/>
+                    <Project titulo="Sistema de controle acadêmico" descricao="A Java prototype of an Academic Control System integrated with PostgreSQL" link="https://github.com/joaovitorsl/Sistema-de-Controle-Academico" logo={github}/>
                 </div>
             </div>
         </>

@@ -15,7 +15,7 @@ import {
 
 function Title(){
   return(
-    <div class="item" id="header">Olá meu nome é João Vitor. <br /> Seja bem vindo ao meu portfólio :)</div>
+    <div class="item" id="header">Hi my name is João Vitor. <br /> Welcome to my portfolio :)</div>
   );
 }
 
@@ -58,11 +58,12 @@ function Home() {
       <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"></link>
       <div id="main-content">
         <section class="container row-wrap">
+          <div id="back_header"> </div>
           <Title />
 
           <div class="item">
             <Link id="aStart" to={`/main`}>
-              <span class="blink" id="start">PRESS START</span>
+              <span class="blink" id="start" onKeyPress="">PRESS START</span>
             </Link>
           </div>
 
