@@ -4,6 +4,7 @@ import OPI from '../images/opi.png';
 import OBR from '../images/obr.png';
 import TJR from '../images/tjr.png';
 import OBG from '../images/obg.png';
+import OBI from '../images/obi.png';
 import ORI from '../images/ori.png';
 import joao from '../images/joao.jpg';
 import infoAbout from './infoAbout';
@@ -86,7 +87,7 @@ function Badges() {
                 <Badge number="3" src={OPI} text={"PARAIBA COMPUTER OLYMPICS | Silver medal (2019) / Honor to merit (2015, 2019)"} />
                 <Badge number="4" src={ORI} text={"REGIONAL INFORMATICS OLYMPICS | Bronze medal (2019)"} />
                 <Badge number="5" src={OBG} text={"GEOBRASIL OLYMPICS | Gold medal PB (2019)"} />
-                <Badge number="6" />
+                <Badge number="6" src={OBI} text={"BRAZILIAN COMPUTER OLYMPICS | Honor to merit (2020)"} />
                 <Badge number="7" />
                 <Badge number="8" />
             </div>
