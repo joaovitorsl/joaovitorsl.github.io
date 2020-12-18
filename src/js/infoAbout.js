@@ -42,6 +42,7 @@ function Job({ year, org, period, descricao }) {
 function Jobs() {
     return (
         <div className="about_job">
+            <Job year="2020" org="Everdata / LSD UFCG" period="(Out 2020 - Current)" descricao="Software developer (Flask, React)" />
             <Job year="2019" org="LaTIn IFPB" period="(Apr 2019 - Dec 2019)" descricao="Smart contracts developer (Solidity)" />
             <Job year="2018" org="IFPB Campus Campina Grande" period="(Jun 2018 - Dec 2018)" descricao="Algorithms monitor (Python)" />
             <Job year="2016 / 2015" org="Colégio Alfredo Dantas" period="(2015 - Dec 2016)" descricao="Robotics team (EV3)" />
