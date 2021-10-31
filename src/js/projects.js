@@ -15,7 +15,7 @@ function Project({ titulo, descricao, link, logo }) {
             <p>{descricao}</p>
             <div className="project-links">
                 <a href={link} target="blank" rel="noopener noreferrer">
-                    <img src={logo} />
+                    <img src={logo} alt="GitHub link"/>
                 </a>
             </div>
         </div>
