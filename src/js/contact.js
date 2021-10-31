@@ -16,14 +16,14 @@ const Contact = () => {
             <div id="contact-page">
                 <Title />
                 <div id="contacts">
-                    <a className="contact_item" href="mailto:joaovitorsilvaluciano@gmail.com" target="blank" rel="noopener noreferrer">
-                        <img src={gmail} />
+                    <a className="contact_item" href="mailto:joao.luciano@ccc.ufcg.edu.br" target="blank" rel="noopener noreferrer">
+                        <img src={gmail} alt="Gmail icon"/>
                     </a>
                     <a className="contact_item" href="https://www.linkedin.com/in/joaovitorsl/" target="blank" rel="noopener noreferrer">
-                        <img src={linkedin} />
+                        <img src={linkedin} alt="LinkedIn icon"/>
                     </a>
                     <a  className="contact_item"href="https://github.com/joaovitorsl" target="blank" rel="noopener noreferrer">
-                        <img src={github} />
+                        <img src={github} alt="GitHub icon"/>
                     </a>
                 </div>
             </div>

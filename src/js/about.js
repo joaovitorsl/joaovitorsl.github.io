@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../css/about.css';
 import OPI from '../images/opi.png';
 import OBR from '../images/obr.png';
@@ -10,7 +10,6 @@ import joao from '../images/joao.jpg';
 import infoAbout from './infoAbout';
 import { HashRouter, useHistory } from 'react-router-dom';
 import {
-    BrowserRouter as Router,
     Switch,
     Route,
     useParams
@@ -70,7 +69,7 @@ function Badge({ src, number, text }) {
         <div class="tooltip" bp="3 1@md">
             <div className="badge" style={{ position: "relative" }}>
                 <span style={{ position: "absolute", bottom: "5px", right: "5px", fontSize: "0.8rem" }}>{number}</span>
-                <img src={src} />
+                <img src={src} alt="Logo da olimpíada"/>
             </div>
             <span class="tooltiptext">{text}</span>
         </div>
@@ -87,7 +86,7 @@ function Badges() {
                 <Badge number="3" src={OPI} text={"PARAIBA COMPUTER OLYMPICS | Silver medal (2019) / Honor to merit (2015, 2019)"} />
                 <Badge number="4" src={ORI} text={"REGIONAL INFORMATICS OLYMPICS | Bronze medal (2019)"} />
                 <Badge number="5" src={OBG} text={"GEOBRASIL OLYMPICS | Gold medal PB (2019)"} />
-                <Badge number="6" src={OBI} text={"BRAZILIAN COMPUTER OLYMPICS | Honor to merit (2020)"} />
+                <Badge number="6" src={OBI} text={"BRAZILIAN COMPUTER OLYMPICS | Honor to merit (2020, 2021)"} />
                 <Badge number="7" />
                 <Badge number="8" />
             </div>
@@ -96,7 +95,6 @@ function Badges() {
 }
 
 const About = () => {
-    const [id, setId] = useState(0);
     return (
         <>
             <div className="about-page">
@@ -119,7 +117,7 @@ const About = () => {
                         <div id="next" className="controlador"> <Next /> </div>
                     </div>
                     <div bp="12 8@lg" className="photo">
-                        <img src={joao}></img>
+                        <img src={joao} alt="Self portrait in pixel art"/>
                     </div>
                 </div>
 

@@ -7,7 +7,6 @@ import Contact from './js/contact';
 import { HashRouter } from 'react-router-dom';
 
 import {
-  BrowserRouter as Router,
   Switch,
   Route,
   Link

@@ -56,27 +56,27 @@ function Hobbies() {
             <h6>HOBBIES</h6>
             <div bp="grid" className="hobbies">
                 <div bp="6@sm 4@md" className="hobbie_item">
-                    <div id="img"><img src={Musica} /></div>
+                    <div id="img"><img src={Musica} alt="Music"/></div>
                     <div><p>Music</p></div>
                 </div>
                 <div bp="6@sm 4@md" className="hobbie_item">
-                    <div id="img"><img src={instrumentos} /> </div>
+                    <div id="img"><img src={instrumentos} alt="Flute and Microphone"/> </div>
                     <div><p>Sing and play</p></div>
                 </div>
                 <div bp="4@md" className="hobbie_item">
-                    <div id="img"><img src={Filmes} /></div>
+                    <div id="img"><img src={Filmes} alt="Films"/></div>
                     <div><p>Films</p></div>
                 </div>
                 <div bp="6@sm" className="hobbie_item">
-                    <div id="img"><img src={DS} /></div>
+                    <div id="img"><img src={DS} alt="Nintendo 2DS"/></div>
                     <div><p>My 2DS &lt;3</p></div>
                 </div>
                 <div bp="6@sm" className="hobbie_item">
-                    <div id="img"><img src={Games} /></div>
+                    <div id="img"><img src={Games} alt="Games"/></div>
                     <div><p>Games</p></div>
                 </div>
             </div>
-            <p id="referencia">Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+            <p id="referencia">Some icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
         </div>
     );
 }
@@ -102,7 +102,7 @@ function Habilidades() {
     );
 }
 
-function Software() {
+/*function Software() {
     return (
         <div>
             Linux
@@ -112,12 +112,12 @@ function Software() {
             GitHub
         </div>
     );
-}
+}*/
 
 function Informacoes() {
     return (
         <div>
-            <p className="text">Hello, my name is João, 18 years old from Campina Grande, Brazil. I have been involved in development since I was 12 years old when a teacher asked me to participate in a selection for the school's robotics team and I started to learn C. The height of enthusiasm was when I managed to answer my first question: <a href="https://olimpiada.ic.unicamp.br/pratique/pj/2014/f1/fliper/">Flíper (OBI 2014)</a>, from then on I became very interested in the area, the excitement was so great that I decided to do Computer Technician at the IFPB integrated with the high school to find out if I really wanted this for my life, and look, today I am majoring in Computer Science at UFCG. The areas that most fascinate me today are Web and Data Science.</p>
+            <p className="text">Hello, my name is João, from Campina Grande, Brazil. I have been involved in development since I was 12 years old when a teacher asked me to participate in a selection for the school's robotics team and I started to learn C. The height of enthusiasm was when I managed to answer my first question: <a href="https://olimpiada.ic.unicamp.br/pratique/pj/2014/f1/fliper/">Flíper (OBI 2014)</a>, from then on I became very interested in the area, the excitement was so great that I decided to do Computer Technician at the IFPB integrated with the high school to find out if I really wanted this for my life, and look, today I am majoring in Computer Science at UFCG. The areas that most fascinate me today are Web and Data Science.</p>
         </div>
     );
 }
