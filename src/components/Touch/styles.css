@@ -1,0 +1,40 @@
+.touch {
+    height: 50vh;
+    background-color: #444444;
+}
+
+.touch-content {
+    display: flex;
+    align-items: center;
+    height: calc(50vh - 30px);
+    overflow: scroll;
+}
+
+.t {
+    text-align: left;
+    width: 100vw;
+    padding: 0px 14px;
+}
+
+.controller {
+    background-color: #262527;
+    padding: 5px;
+    border-radius: 99999px;
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+.touch-footer {
+    display: flex;
+    background-color: #e5e5e5;
+    height: 30px;
+    align-items: center;
+    justify-content: right;
+}
+
+@media(min-width: 501px) {
+    .touch {
+        display: none;
+    }
+}

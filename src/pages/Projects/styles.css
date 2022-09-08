@@ -1,13 +1,13 @@
-#project-page{
+.project-page{
     text-align: left;
     padding: 50px;
 }
 
-#project img{
+.project img{
     height: 20px;
 }
 
-#project{
+.project{
     border: 1px solid white;
     border-radius: 2px;
     padding-left: 20px;
@@ -17,17 +17,13 @@
     text-align: left;
 }
 
-#project p{
+.project p{
     font-size: 14px;
 }
 
-#project h3{
+.project h3{
     margin-top: 15px;
     margin-bottom: 0;
     font-weight: 300;
     font-size: 17px;
-}
-
-#titulo{
-    font-size: 22px;
 }

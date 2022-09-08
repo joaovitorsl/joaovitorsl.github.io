@@ -1,0 +1,22 @@
+.footer {
+    color: #e1e2e2;
+    background: repeating-linear-gradient(180deg,
+            #68b0d0,
+            #408db2 10px,
+            #2878a0 10px,
+            #2e6b8a 20px);
+    padding: 14px;
+    margin: 14px 0px;
+    font-size: 14px;
+}
+
+.badges {
+    margin-top: 7px;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .footer-badges {
+        display: none;
+    }
+}

@@ -1,15 +1,14 @@
-#page-hobbies h6{
-    font-size: 19px;
+.page-hobbies h6{
+
     margin-top: 10px;
     margin-bottom: 25px;
 }
 
-#referencia{
+.referencia{
     text-align: center;
-    font-size: 10px;
 }
 
-.hobbie_item div{
+.hobbie-item div{
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -19,7 +18,6 @@
 }
 
 .hobbies p{
-    font-size: 17px;
     text-align: center;
 }
 

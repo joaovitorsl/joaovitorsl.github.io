@@ -1,0 +1,73 @@
+.about-page{
+    border: #646473 solid 3px;
+    border-radius: 7px;
+    text-align: left;
+    background: repeating-linear-gradient(
+        180deg,
+        #f5f5f5,
+        #ececec 10px,
+        #d8d8d8 10px,
+        #cfcfcf 20px
+    );
+    color: rgb(63, 54, 51);
+    height: 50vh;
+}
+
+.nome{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.programmerCard{
+    background-color: #726d6e;
+    border: #3f3633 4px solid;
+    border-radius: 5px;
+}
+
+.content{
+    display: grid;
+    grid-template-areas:
+    "texto photo";
+    grid-template-columns: 1fr max-content;
+}
+
+.photo{
+    grid-area: photo;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.controlador{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 14px;
+    cursor: pointer;
+}
+
+.photo img{
+    height: calc(50vh - 200px);
+}
+
+.info{
+    grid-area: texto;
+    display: grid;
+    grid-template-areas:
+    "prev area next";
+    grid-template-columns: min-content 1fr min-content;
+    width: auto;
+}
+
+@media (max-width: 500px) {
+    .info {
+        display: none;
+    }
+}

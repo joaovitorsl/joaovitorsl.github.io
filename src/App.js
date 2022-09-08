@@ -1,9 +1,7 @@
 import React from 'react';
-import './App.css';
-import './main.css';
-import About from  './js/about';
-import Projects from './js/projects';
-import Contact from './js/contact';
+import About from  './pages/About';
+import Projects from './pages/Projects';
+import Contacts from './pages/Contacts';
 import { HashRouter } from 'react-router-dom';
 
 import {
@@ -43,7 +41,7 @@ export default function App() {
             <About />
           </Route>
           <Route path="/contact">
-            <Contact />
+            <Contacts />
           </Route>
         </Switch>
       </div>
@@ -86,7 +84,7 @@ function Main() {
             <Link id="aSave" to={`/projects`}>
               <span>JOAO A . . . . PROJECTS</span>
             </Link>
-            <Link id="aSave" to={`/about/0`}>
+            <Link id="aSave" to={`/about`}>
               <span>JOAO B . . . . ABOUT ME</span>
             </Link>
             <Link id="aSave" to={`/contact`}>

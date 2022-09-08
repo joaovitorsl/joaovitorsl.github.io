@@ -1,0 +1,77 @@
+.job-section h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.job-section {
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.job-item {
+    margin: 0;
+    padding: 0;
+    margin-left: 22px;
+}
+
+.job-item span {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    color: rgb(200, 69, 39);
+}
+
+.job-item ul {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.job-item li {
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+    padding-left: 30px;
+    list-style: none;
+}
+
+.job-item small {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #33464d;
+}
+
+li:before {
+    content: "-";
+    margin-right: 8px;
+}
+
+@media(max-width: 500px) {
+    .job-section {
+        margin: 25px 0px;
+    }
+
+    .job-item {
+        font-size: 14px;
+    }
+
+    .job-item span {
+        font-size: 14px;
+        color: #489f8f;
+    }
+
+    .job-item li {
+        margin-top: 14px;
+        font-size: 12px;
+    }
+
+    .job-item small {
+        font-size: 8px;
+        color: #ffe9bd;
+    }
+}

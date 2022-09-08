@@ -1,8 +1,8 @@
-.contact_item img{
+.contact-item img{
     height: 75px;
 }
 
-#contact-page{
+.contact-page{
     margin-top: 34vh;
     height: 100%;
     width: 100%;
@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-#contacts{
+.contacts{
     display: grid;
     grid-template-areas: "a b c";
     grid-gap: 20px;
@@ -21,6 +21,10 @@
     justify-content: center;
 }
 
-#contacts div{
+.contacts div{
     width: fit-content;
+}
+
+.contact-title {
+    font-size: 22px;
 }

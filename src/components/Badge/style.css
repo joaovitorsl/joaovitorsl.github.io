@@ -1,0 +1,21 @@
+.badge {
+    position: relative;
+    border: 3px solid #e1e2e2;
+    border-radius: 2px;
+}
+
+.badge img {
+    width: 100%;
+}
+
+.badge {
+    width: 32px;
+    height: 32px;
+}
+
+/*.badge-number {
+    position: "absolute";
+    bottom: "5px";
+    right: "5px";
+    font-size: "0.8rem";
+}*/

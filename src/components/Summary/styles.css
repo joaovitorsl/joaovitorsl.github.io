@@ -1,0 +1,15 @@
+.text{
+    font-size: 13px;
+    line-height: 140%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(63, 54, 51);
+}
+
+@media (max-width: 500px) {
+    .text {
+        max-height: calc(50vh - 50px);
+    }
+}
