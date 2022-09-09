@@ -1,12 +1,13 @@
 import React from "react";
 import jobs from "../../info/jobs";
 import Job from "../Job";
+import './styles.css';
 
 const Resume = () => {
-    const resume = jobs.map((job) => <Job org={job.organization} period={`(${job.period})`} descricao={`${job.function} (${job.technologies.join(', ')})`} />);
+    const resume = jobs.map((job) => <Job org={job.organization} period={`(${job.period})`} role={job.function} technologies={job.technologies.join(', ')} />);
 
     return (
-        <div>
+        <div className="resume">
             {resume}
         </div>
     );

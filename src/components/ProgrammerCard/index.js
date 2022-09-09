@@ -65,7 +65,7 @@ const ProgrammerCard = () => {
                         <Info id={id}/>
                         <div id="next" className="controlador"> <Next id={id} setId={setId}/> </div>
                     </div>
-                    <div bp="4" className="photo">
+                    <div bp="8" className="photo">
                         <img src={joao} alt="Self portrait in pixel art" />
                     </div>
                 </div>

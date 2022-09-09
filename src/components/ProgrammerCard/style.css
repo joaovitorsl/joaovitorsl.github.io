@@ -70,4 +70,8 @@
     .info {
         display: none;
     }
+
+    .content {
+        height: calc(50vh - 150px);
+    }
 }

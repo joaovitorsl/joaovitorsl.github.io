@@ -9,7 +9,7 @@
     margin-bottom: 25px;
 }
 
-.language{
+.language-level{
     display: flex;
 }
 
@@ -22,4 +22,23 @@
 
 .transparent{
     background-color: transparent;
+}
+
+@media(max-width: 500px) {
+    .languages h6 {
+        display: none;
+    }
+
+    .language {
+        margin-bottom: 20px;
+    }
+
+    .language p {
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .block, .transparent {
+        border: 2px solid #3f3633;
+    }
 }

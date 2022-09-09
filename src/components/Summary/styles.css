@@ -13,3 +13,7 @@ a{
         max-height: calc(50vh - 50px);
     }
 }
+
+p {
+    margin: 0;
+}

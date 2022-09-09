@@ -1,11 +1,11 @@
 .page-hobbies h6{
-
     margin-top: 10px;
     margin-bottom: 25px;
 }
 
 .referencia{
     text-align: center;
+    font-size: 8px;
 }
 
 .hobbie-item div{
@@ -19,8 +19,23 @@
 
 .hobbies p{
     text-align: center;
+    font-size: 12px;
 }
 
 .hobbies img{
     height: 100px;
+}
+
+@media(max-width: 500px) {
+    .page-hobbies h6 {
+        display: none;
+    }
+
+    .referencia {
+        margin-top: 20px;
+    }
+
+    .hobbies p {
+        margin-top: 8px;
+    }
 }

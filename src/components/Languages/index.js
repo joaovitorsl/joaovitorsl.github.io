@@ -11,12 +11,12 @@ const Language = ({ language, level }) => {
     }
 
     return (
-        <>
+        <div className="language">
             <p>{language}</p>
-            <div className="language">
+            <div className="language-level">
                 {blocks}
             </div>
-        </>
+        </div>
     )
 };
 

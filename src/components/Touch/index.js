@@ -5,6 +5,7 @@ import Languages from '../Languages';
 import Hobbies from '../Hobbies';
 import Skills from '../Skills';
 import Summary from '../Summary';
+import './my-sass.scss';
 
 const infoAbout = [
     <Summary />,
@@ -12,6 +13,14 @@ const infoAbout = [
     <Hobbies />,
     <Languages />,
     <Resume />
+]
+
+const infoTitle = [
+    "SUMMARY",
+    "SKILLS",
+    "HOBBIES",
+    "LANGUAGES",
+    "RESUME"
 ]
 
 function Next({ id, setId }) {
@@ -48,7 +57,9 @@ function Previous({ id, setId }) {
 
 function Info({ id }) {
     return (
-        infoAbout[id]
+        <div className="t2">
+            {infoAbout[id]}
+        </div>
     );
 }
 
@@ -57,15 +68,26 @@ const Touch = () => {
 
     return (
         <div className="touch">
-            <div className="touch-content">
-                <div className="t">
-                <Info id={id} />
-                </div>
-            </div>
-            <div className="touch-footer">
+            <div className="touch-header">
+                <a href="http://localhost:3000" className="touch-header-back">X</a>
+                <div className="touch-header-title">{infoTitle[id]}</div>
+                <div className="touch-header-space"></div>
                 <Previous id={id} setId={setId} />
                 <Next id={id} setId={setId} />
             </div>
+            <div className="touch-content">
+                <div className="TV">
+                    <div className="tv-content">
+                        <div className="t">
+                            <div className="scanlines">
+                                <Info id={id} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     )
 };

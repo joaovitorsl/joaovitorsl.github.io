@@ -51,6 +51,7 @@ li:before {
     margin-right: 8px;
 }
 
+
 @media(max-width: 500px) {
     .job-section {
         margin: 25px 0px;
@@ -58,6 +59,7 @@ li:before {
 
     .job-item {
         font-size: 14px;
+        margin: 0;
     }
 
     .job-item span {
@@ -73,5 +75,13 @@ li:before {
     .job-item small {
         font-size: 8px;
         color: #ffe9bd;
+    }
+
+    .job-item {
+        margin-bottom: 20px;
+    }
+    
+    .job-item:last-child {
+        margin-bottom: 0;
     }
 }

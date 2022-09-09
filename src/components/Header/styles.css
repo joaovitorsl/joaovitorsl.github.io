@@ -13,3 +13,7 @@
     margin: 0;
     font-size: 14px;
 }
+
+.programmerCard, .nome {
+    width: fit-content;
+}
