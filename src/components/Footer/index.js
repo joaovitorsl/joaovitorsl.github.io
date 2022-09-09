@@ -13,17 +13,11 @@ const Footer = () => {
             <div className="footer-badges">
                 <span>BADGES</span>
                 <div className="badges">
-                    <div bp="grid">
-                        <div></div>
-                        <div></div>
-                        {grid}
-                        <div></div>
-                        <div></div>
-                    </div>
+                    {grid}
                 </div>
             </div>
             <div>
-                
+
             </div>
         </div>
     );

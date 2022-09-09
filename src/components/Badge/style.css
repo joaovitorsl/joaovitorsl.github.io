@@ -19,3 +19,9 @@
     right: "5px";
     font-size: "0.8rem";
 }*/
+
+@media (max-width: 500px) {
+    .badge {
+        border: 2px solid #e1e2e2;
+    }
+}

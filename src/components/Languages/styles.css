@@ -1,3 +1,9 @@
+.languages {
+    width: 100%;
+    max-height: 100%;
+    overflow: scroll;
+}
+
 .languages p{
     margin-bottom: 0;
     font-size: 17px;

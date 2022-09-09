@@ -11,23 +11,19 @@ const Hobbies = () => {
         <div className="page-hobbies">
             <h6>HOBBIES</h6>
             <div bp="grid" className="hobbies">
-                <div bp="6@sm 4@md" className="hobbie-item">
+                <div bp="6" className="hobbie-item">
                     <div><img src={Musica} alt="Music" /></div>
                     <div><p>Music</p></div>
                 </div>
-                <div bp="6@sm 4@md" className="hobbie-item">
+                <div bp="6" className="hobbie-item">
                     <div><img src={instrumentos} alt="Flute and Microphone" /> </div>
                     <div><p>Sing and play</p></div>
                 </div>
-                <div bp="4@md" className="hobbie-item">
-                    <div><img src={Filmes} alt="Films" /></div>
-                    <div><p>Films</p></div>
-                </div>
-                <div bp="6@sm" className="hobbie-item">
+                <div bp="6" className="hobbie-item">
                     <div><img src={DS} alt="Nintendo 2DS" /></div>
                     <div><p>My 2DS &lt;3</p></div>
                 </div>
-                <div bp="6@sm" className="hobbie-item">
+                <div bp="6" className="hobbie-item">
                     <div><img src={Games} alt="Games" /></div>
                     <div><p>Games</p></div>
                 </div>

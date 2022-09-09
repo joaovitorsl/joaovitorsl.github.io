@@ -11,12 +11,13 @@
 }
 
 .badges {
-    margin-top: 7px;
-    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 'a b c d e f g h';
 }
 
-@media (max-width: 500px) {
-    .footer-badges {
-        display: none;
+@media (min-width: 305px) {
+    .badges {
+        padding-left: 14px;
     }
 }

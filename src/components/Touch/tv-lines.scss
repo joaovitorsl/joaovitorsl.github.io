@@ -2,7 +2,7 @@
     $scan-width: 3px;
     $scan-crt: true;
     $scan-fps: 5000;
-    $scan-color: rgba(#000, .066);
+    $scan-color: rgba(#000, .075);
     $scan-z-index: 2147483648;
     $scan-moving-line: true;
     $scan-opacity: .75;
@@ -59,6 +59,8 @@
             background-size: 100% $scan-width*2;
             @include scan-crt($scan-crt);
         }
+
+        width: 100%;
     }
 
     @keyframes scanlines {

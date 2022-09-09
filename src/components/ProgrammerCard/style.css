@@ -32,6 +32,7 @@
     grid-template-areas:
     "texto photo";
     grid-template-columns: 1fr max-content;
+    margin: 0 14px;
 }
 
 .photo{
@@ -69,9 +70,5 @@
 @media (max-width: 500px) {
     .info {
         display: none;
-    }
-
-    .content {
-        height: calc(50vh - 150px);
     }
 }

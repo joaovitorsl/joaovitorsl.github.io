@@ -38,4 +38,17 @@
     .hobbies p {
         margin-top: 8px;
     }
+
+    .page-hobbies {
+        max-height: 100%;
+        overflow: scroll;
+    }
+
+    .referencia a {
+        color: #ffe9bd;
+    }
+
+    .hobbies img{
+        height: 55px;
+    }
 }

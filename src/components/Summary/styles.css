@@ -1,19 +1,21 @@
-.text{
+.summary{
     font-size: 13px;
     line-height: 140%;
 }
 
-a{
+.summary a {
     text-decoration: none;
-    color: rgb(63, 54, 51);
+    color: #181818;
 }
 
 @media (max-width: 500px) {
-    .text {
-        max-height: calc(50vh - 50px);
+    .summary {
+        height: 100%;
+        overflow: scroll;
     }
-}
 
-p {
-    margin: 0;
+    .summary a {
+        text-decoration: none;
+        color: #489f8f;
+    }
 }

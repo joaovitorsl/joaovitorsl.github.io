@@ -3,21 +3,21 @@ import './styles.css';
 
 const Skills = () => {
     return (
-        <div id="habilities">
+        <div className="skills">
             <h6>SKILLS</h6>
-            <p id="html">HTML 5</p>
-            <p id="css">CSS</p>
-            <p id="js">JavaScript</p>
-            <p id="react">React</p>
+            <p className="html">HTML 5</p>
+            <p className="css">CSS</p>
+            <p className="js">JavaScript</p>
+            <p className="react">React</p>
             <hr />
-            <p id="sql">PostgreSQL</p>
+            <p className="sql">PostgreSQL</p>
             <hr />
-            <p id="c">C</p>
-            <p id="cpp">C++</p>
-            <p id="py">Python</p>
-            <p id="java">Java</p>
+            <p className="c">C</p>
+            <p className="cpp">C++</p>
+            <p className="py">Python</p>
+            <p className="java">Java</p>
             <hr />
-            <p id="sol">Solidity</p>
+            <p className="sol">Solidity</p>
         </div>
     );
 }
