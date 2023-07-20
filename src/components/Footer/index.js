@@ -1,7 +1,7 @@
 import React from "react";
 import Badge from "../Badge";
 import badges from "../../info/badges";
-import './styles.css';
+import './styles.scss';
 
 const Footer = () => {
     const grid = badges.map(

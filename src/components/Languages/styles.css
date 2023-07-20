@@ -2,7 +2,14 @@
     width: 100%;
     max-height: 100%;
     overflow: scroll;
-}
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+    }
+
+    .languages::-webkit-scrollbar {
+        display: none;
+      }
+
 
 .languages p{
     margin-bottom: 0;
@@ -30,7 +37,7 @@
     background-color: transparent;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 657px) {
     .languages h6 {
         display: none;
     }

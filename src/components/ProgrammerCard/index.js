@@ -1,26 +1,14 @@
 import React, { useState } from 'react';
 import Footer from '../Footer';
 import Header from '../Header';
-import './style.css';
-import joao from '../../assets/img/joao.jpg';
-import Resume from '../Resume';
-import Languages from '../Languages';
-import Hobbies from '../Hobbies';
-import Skills from '../Skills';
-import Summary from '../Summary';
+import photo from '../../assets/img/joao.jpg';
+import useProgrammerCard from './hook';
+import './styles.scss';
 
-const infoAbout = [
-    <Summary />,
-    <Skills />,
-    <Hobbies />,
-    <Languages />,
-    <Resume />
-]
-
-function Next({id, setId}) {
-    function handleClick() {
+const Next = ({ id, setId }) => {
+    const handleClick = () => {
         if (id < 4) {
-            setId(id+1);
+            setId(id + 1);
         } else {
             setId(0);
         }
@@ -33,10 +21,10 @@ function Next({id, setId}) {
     );
 }
 
-function Previous({id, setId}) {
-    function handleClick() {
+const Previous = ({ id, setId }) => {
+    const handleClick = () => {
         if (id > 0) {
-            setId(id-1);
+            setId(id - 1);
         } else {
             setId(4);
         }
@@ -51,35 +39,29 @@ function Previous({id, setId}) {
 
 const ProgrammerCard = () => {
     const [id, setId] = useState(0);
+    const { infoAbout } = useProgrammerCard();
 
     return (
-        <>
-            <div className="about-page">
-                <div className="titulo">
-                    <Header />
-                </div>
+        <div className="programmer-card">
+            <Header />
 
-                <div bp="grid" className="content">
-                    <div bp="12 8@lg" className="info">
-                        <div id="prev" className="controlador"> <Previous id={id} setId={setId}/> </div>
-                        <Info id={id}/>
-                        <div id="next" className="controlador"> <Next id={id} setId={setId}/> </div>
+            <div className="content">
+                <div className='hide-info'></div>
+                <div className="info">
+                    <div id="prev" className="controlador"> <Previous id={id} setId={setId} /> </div>
+                    <div className='info'>
+                        {infoAbout[id]}
                     </div>
-                    <div bp="8" className="photo">
-                        <img src={joao} alt="Self portrait in pixel art" />
-                    </div>
+                    <div id="next" className="controlador"> <Next id={id} setId={setId} /> </div>
                 </div>
-
-                <Footer />
+                <div className="photo">
+                    <img src={photo} alt="Self portrait in pixel art" />
+                </div>
             </div>
-        </>
-    )
-}
 
-function Info({id}) {
-    return (
-        infoAbout[id]
-    );
+            <Footer />
+        </div>
+    )
 }
 
 export default ProgrammerCard

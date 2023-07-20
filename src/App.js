@@ -1,5 +1,5 @@
 import React from 'react';
-import About from  './pages/About';
+import About from './pages/About';
 import Projects from './pages/Projects';
 import Contacts from './pages/Contacts';
 import { HashRouter } from 'react-router-dom';
@@ -10,14 +10,14 @@ import {
   Link
 } from "react-router-dom";
 
-function Title(){
-  return(
+function Title() {
+  return (
     <div class="item" id="header">Hi my name is João Vitor. <br /> Welcome to my portfolio :)</div>
   );
 }
 
-function Footer(){
-  return(
+function Footer() {
+  return (
     <div class="item" id="footer">©2020 JOAO LUCIANO</div>
   );
 }
@@ -25,26 +25,23 @@ function Footer(){
 export default function App() {
   return (
     <HashRouter basename={process.env.PUBLIC_URL}>
-      <div id="teste">
-        {}
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/main">
-            <Main />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contact">
-            <Contacts />
-          </Route>
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/main">
+          <Main />
+        </Route>
+        <Route path="/projects">
+          <Projects />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/contact">
+          <Contacts />
+        </Route>
+      </Switch>
     </HashRouter>
   );
 }

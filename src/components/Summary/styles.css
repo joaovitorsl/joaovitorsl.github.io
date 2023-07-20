@@ -1,4 +1,4 @@
-.summary{
+.summary {
     font-size: 13px;
     line-height: 140%;
 }
@@ -8,11 +8,20 @@
     color: #181818;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 657px) {
     .summary {
         height: 100%;
         overflow: scroll;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
     }
+
+    .summary::-webkit-scrollbar {
+        display: none;
+    }
+
 
     .summary a {
         text-decoration: none;

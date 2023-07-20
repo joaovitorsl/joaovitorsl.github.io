@@ -1,0 +1,56 @@
+.header {
+    margin: 14px 0;
+    padding: 14px;
+    background: repeating-linear-gradient(180deg,
+            #68b0d0,
+            #408db2 10px,
+            #2878a0 10px,
+            #2e6b8a 20px);
+    color: #e1e2e2;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    grid-gap: 25px;
+
+    .programmerCard, .nome {
+        width: fit-content;
+        margin: 0;
+        font-size: 19px;
+    }
+
+    .programmerCard {
+        background-color: #726d6e;
+        border: #3f3633 4px solid;
+        border-radius: 5px;
+    }
+
+    .nome {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    h3 {
+        width: fit-content;
+    }
+}
+
+// @media(max-width: 670px) {
+//     .header {
+//         h3 {
+//             font-size: 14px;
+//             flex: 1;
+//         }
+//     }
+// }
+
+@media (min-width: 658px) {
+    .header {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-size: 22px;
+        padding: 20px 40px;
+    }
+}

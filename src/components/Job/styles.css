@@ -52,7 +52,7 @@ li:before {
 }
 
 
-@media(max-width: 500px) {
+@media(max-width: 657px) {
     .job-section {
         margin: 25px 0px;
     }

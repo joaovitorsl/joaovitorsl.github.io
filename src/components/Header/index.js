@@ -1,15 +1,14 @@
 import React from "react";
-import './styles.css';
+import './styles.scss';
 
 const Header = () => {
     return (
-        <div bp="grid" className="header">
-            <div bp="6">
-                <h3 className="programmerCard">PROGRAMMER CARD</h3>
-            </div>
-            <div bp="6">
-                <h3 className="nome"> JOÃO VITOR</h3>
-            </div>
+        <div className="header">
+
+            <h3 className="programmerCard">PROGRAMMER CARD</h3>
+
+            <h3 className="nome"> JOÃO VITOR</h3>
+
         </div>
     );
 }
